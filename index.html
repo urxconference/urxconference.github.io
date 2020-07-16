@@ -3,45 +3,44 @@
 <head>
     <link rel="stylesheet" href="dist.css">
     <script src="https://kit.fontawesome.com/35cb14ae73.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body class="antialiased text-gray-800">
-    <div class="text-center bg-gray-700 font-medium text-white py-3 px-4">
-        Lost internship or new grad job due to COVID-19? Get your profile directly in front of our recruiter community.
-        <a href="#" class="bg-gray-800 font-semibold mx-4 p-2 rounded">Learn More</a>
+    <div id="colorbar" class="border-t-8 border-navy-400"></div>
+
+    <div id="navbar" class="px-4">
+        <div id="navbar" class="flex items-baseline mt-8 max-w-6xl mx-auto text-lg">
+            <a href="#" class="flex-1 font-bold text-3xl">TalentBoard<span class="text-xl text-navy-300">.io</span></a>
+            <div class="hidden md:block">
+                <a href="//urxcommunity.com/" class="ml-6">URx</a>
+                <a href="/" class="ml-6">Students</a>
+                <a href="/contact.html" class="ml-6">Contact</a>
+            </div>
+        </div>
     </div>
 
-    <div class="flex items-baseline mt-8 max-w-6xl mx-auto text-lg">
-        <a href="#" class="flex-1 font-bold text-3xl">TalentBoard</a>
-        <a href="#" class="ml-6">URx</a>
-        <a href="#" class="ml-6">Students</a>
-        <a href="#" class="ml-6">Contact</a>
-    </div>
-
-    <div class="py-12 px-4">
+    <div id="hero" class="py-2 px-4">
         <div class="mx-auto max-w-6xl">
             <div class="flex items-center justify-between">
-                <div class="w-1/2 mr-2">
+                <div class="md:w-1/2 mr-2 py-24">
                     <h2 class="text-4xl font-bold">Lost your Job due to COVID-19?</h2>
                     <p class="text-lg">
-                        Add your profile to the student talent board.
-                        We get your profile directly in front of our community of recruiters.
+                        Take 5 minutes and create your profile. We'll get you in front of our community of recruiters at top companies.
                     </p>
-                    <a class="inline-block bg-gray-700 font-bold text-gray-100 px-3 py-2 rounded text-lg mt-4" href="#form">Apply Now</a>
+                    <a class="inline-block bg-navy-400 font-bold text-gray-100 px-3 py-2 rounded text-lg mt-4" href="#form">Apply Now</a>
                 </div>
-                <div class="w-1/2">
-                    <img class="w-4/5 ml-auto"
-                        src="https://talentboard.io/wp-content/uploads/2020/04/Black-Man-Black-Woman-Using-Laptop-C-2048x2048.png"
-                        alt=""">
+                <div class="hidden md:block w-1/2 flex items-center justify-center">
+                    <img class="ml-auto" style="height: 400px;" src="logos/undraw.svg" alt="">
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="py-8 px-4">
+    <div id="socialProof" class="hidden md:block py-8 px-4">
         <div class="mx-auto max-w-6xl">
-            <h2 class="text-center text-gray-600 uppercase font-medium tracking-wide">Talent Professionals in our
-                Community
+            <h2 class="text-center text-gray-600 uppercase font-medium tracking-wide leading-none transform translate-y-5">
+                Talent Professionals in our Community
             </h2>
             <div class="flex justify-between">
                 <img class="w-32 grayscale-until-hover" src="logos/fastly.png" alt="Logo">
@@ -54,59 +53,54 @@
         </div>
     </div>
 
-    <div id="form" class="py-12 px-4 bg-gray-700">
+    <div id="form" class="py-12 px-4 bg-navy-400">
         <div class="mx-auto max-w-6xl">
-            <h1 class="text-white text-3xl font-bold text-center mb-4">Join our TalentBoard</h1>
-            <div class="">
-                <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe
-                    class="airtable-embed airtable-dynamic-height"
-                    src="https://airtable.com/embed/shr82dFm0bvIzn2up?backgroundColor=red" frameborder="0"
-                    onmousewheel="" width="100%" height="2668"
-                    style="background: transparent; border: 1px solid #ccc;"></iframe>
+            <div>
+                <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shr82dFm0bvIzn2up?backgroundColor=red" frameborder="0" onmousewheel="" width="100%" height="2668" style="background: transparent; border: 1px solid #ccc;"></iframe>
             </div>
         </div>
     </div>
 
-    <div class="py-12 px-4">
+    <div id="partners" class="py-12 px-4">
         <div class="mx-auto max-w-6xl">
-            <div class="grid grid-cols-3 text-center">
-                <div class="text-gray-800 font-bold text-3xl lines px-4">Made Possible By</div>
-                <div class="text-gray-800 font-bold text-3xl lines px-4 col-span-2">With Support From</div>
-                <img class="mx-auto w-56 mt-4 mb-1 grayscale-until-hover" src="logos/urx.png" alt="Logo">
-                <img class="mx-auto w-56 mt-4 mb-1 grayscale-until-hover" src="logos/contrary.png" alt="Logo">
-                <img class="mx-auto w-56 mt-4 mb-1 grayscale-until-hover" src="logos/mlh.png" alt="Logo">
-                <p class="text-sm mx-auto w-4/5">
-                    We are a community of recruiters, talent developers, and employer
-                    brand marketers making an impact at the entry points of the workforce.
-                </p>
-                <p class="text-sm mx-auto w-4/5">
-                    We are a network-driven university-focused venture fund backed by
-                    founding members of Facebook, Reddit, Tesla, and many more.
-                </p>
-                <p class="text-sm mx-auto w-4/5">
-                    The official student hackathon league. We inspire innovation,
-                    cultivate communities and teach CS skills to more than 65k students around the world.
-                </p>
-                <div class="line mx-4 mt-4"></div>
-                <div class="line mx-4 mt-4 col-span-2"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="py-32 px-4 bg-gray-700 text-gray-100">
-        <div class="mx-auto max-w-6xl">
-            <div class="flex justify-center items-center text-center">
+            <div class="flex flex-col md:flex-row text-center">
                 <div>
-                    <h1 class="font-semibold text-5xl">We're curating resources to support students.</h1>
-                    <p class="text-xl">Hiring? Have resources to share? Want to mentor? Get in touch.</p>
-                    <a href="#"
-                        class="mt-6 text-gray-200 text-xl inline-block font-bold bg-gray-800 py-2 px-3 rounded m-3">Join
-                        Us</a>
+                    <div class="text-gray-800 font-semibold text-3xl px-4">Made Possible By</div>
+                    <div class="h-40 flex items-center">
+                        <img class="mx-auto w-56 mt-4 mb-1" src="logos/urx.png" alt="Logo">
+                    </div>
+                    <p class="text-sm mx-auto w-4/5">
+                        <span class="font-bold leading-loose text-xl">URx Community</span><br /> We are a community of recruiters, talent developers, and employer brand marketers making an impact at the entry points of the workforce.
+                    </p>
+                </div>
+                <div>
+                    <div class="text-gray-800 font-semibold text-3xl px-4 mt-12 md:mt-0">With Support From</div>
+                    <div class="h-40 flex items-center">
+                        <img class="mx-auto w-56 mt-4 mb-1" src="logos/contrary.png" alt="Logo">
+                    </div>
+                    <p class="text-sm mx-auto w-4/5">
+                        <span class="font-bold leading-loose text-xl">Contrary Capital</span><br /> We are a network-driven university-focused venture fund backed by founding members of Facebook, Reddit, Tesla, and many more.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="py-6 px-4 text-gray-700">
+
+    <div id="bottomCTA" class="py-32 px-4 bg-navy-400 text-gray-100">
+        <div class="mx-auto max-w-6xl">
+            <div class="flex justify-center items-center text-center">
+                <div>
+                    <h1 class="font-bold text-3xl md:text-5xl leading-tight">We're curating resources to support students.</h1>
+                    <p class="text-lg md:text-xl">Hiring? Have resources to share? Want to mentor? Get in touch.</p>
+                    <a href="#" class="mt-6 text-gray-200 text-xl inline-block font-bold bg-navy-500 py-2 px-12 rounded m-3">
+                        Join Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer" class="py-6 px-4 text-gray-700">
         <div class="mx-auto max-w-6xl">
             <div class="text-center">
                 Made with <i class="fas fa-heart"></i> by URx.
@@ -114,6 +108,17 @@
         </div>
     </div>
 
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>
